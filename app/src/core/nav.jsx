@@ -195,57 +195,57 @@ class Nav extends React.Component {
             <a
               className="navbar-item"
               onClick={() => this.navigate(ROUTES.WELCOME)}>
-              Home
+              Inicio
             </a>
 
             <a
               className="navbar-item"
               onClick={() => this.navigate(ROUTES.ABOUT)}>
-              About
+              Inventario
             </a>
 
             <div className="navbar-item has-dropdown is-hoverable">
-              <a className="navbar-link">Sample pages</a>
+              <a className="navbar-link">Mi empresa</a>
 
               <div className="navbar-dropdown">
                 <a
                   className="navbar-item"
                   onClick={() => this.navigate(ROUTES.MOTD)}>
-                  Using the Electron store
+                  Perfil
                 </a>
                 <a
                   className="navbar-item"
                   onClick={() => this.navigate(ROUTES.LOCALIZATION)}>
-                  Changing locales
+                  Nomina
                 </a>
                 <a
                   className="navbar-item"
                   onClick={() => this.navigate(ROUTES.UNDOREDO)}>
-                  Undo/redoing actions
+                  Contabilidad
                 </a>
-                <a
+                {/* <a
                   className="navbar-item"
                   onClick={() => this.navigate(ROUTES.CONTEXTMENU)}>
                   Custom context menu
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   className="navbar-item"
                   onClick={() => this.navigate(ROUTES.IMAGE)}>
                   Sample image loaded
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
           {this.renderLicenseModal()}
           <div className="navbar-end">
             <div className="navbar-item">
-              <div className="buttons">
+              {/* <div className="buttons">
                 <a
                   className="button is-light"
                   onClick={this.toggleLicenseModal}>
                   Check license
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
