@@ -1,7 +1,0 @@
-{
-  "name": "inventario",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Sergio20100/inventarioElectron.git",
-  "license": "MIT"
-}
