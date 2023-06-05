@@ -1,0 +1,9 @@
+export const LOGIN = '/login';
+export const HOME = '/';
+export const INVENTORY = '/inventory';
+export const PRODUCT = '/product';
+export const NEW_PRODUCT = '/product/registrar';
+export const PROVIDERS = '/providers';
+export const EMPLOYEES = '/employees';
+export const LOGOUT = '/empleados/login';
+export const BILLING = '/billing';

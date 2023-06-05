@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    height: -webkit-fill-available;
+  }
+  
+  #root {
+    height: -webkit-fill-available;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  .App{
+    height: 100%;
+  }
